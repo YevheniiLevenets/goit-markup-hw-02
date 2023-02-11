@@ -5,60 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <!--Лого-ссылка текстом-->
-      <a href="WEBSTUDIO">WEBSTUDIO</a>
-      <!--основная навигация-->
+    <header class="header-page">
+      <!--основная навигация before Hero-->
+      <!--Top line-->
       <nav>
-        <ul>
-          <li><a href="Studio">Studio</a></li>
-          <li><a href="Portfolio">Portfolio</a></li>
-          <li><a href="Contacts">Contacts</a></li>
+        <!--Лого/ссылка текстом + два класса для стилей-->
+        <a href="./index.html" class="logo-first">WEB<span class="logo-second">STUDIO</span> </a>
+        <ul class="site-navigation">
+          <li><a href="./index.html" class="link">Studio</a></li>
+          <li><a href="./portfolio.html" class="link">Portfolio</a></li>
+          <li><a href="" class="link">Contacts</a></li>
         </ul>
         <!--contacts іn nav-->
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+11(000)1111111">+11 (000) 111-11-11</a></li>
-        </ul>
+        <address class="header-adress">
+          <ul>
+            <li>
+              <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
       </nav>
     </header>
     <!--центральная часть страницы MAIN-->
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="hero-button">Order Service</button>
       </section>
       <!--About Us-->
       <section>
+        <h2 hidden>About Us</h2>
         <ul>
           <li>
             <h2>Strategy</h2>
             <p>
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
+              Our goal is to identify the business problem to walk away with the perfect and
+              creative solution.
             </p>
           </li>
           <li>
             <h2>Punctuality</h2>
             <p>
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
+              Bring the key message to the brand's audience for the best price within the shortest
+              possible time.
             </p>
           </li>
           <li>
             <h2>Diligence</h2>
             <p>
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
+              Research and confirm brands that present the strongest digital growth opportunities
+              and minimize risk.
             </p>
           </li>
           <li>
             <h2>Technologies</h2>
             <p>
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
+              Design practice focused on digital experiences. We bring forth a deep passion for
+              problem-solving.
             </p>
           </li>
         </ul>
@@ -108,12 +117,7 @@
             <p>Product Designer</p>
           </li>
           <li>
-            <img
-              src="./images/tom-ford.jpg"
-              alt="photo by tom ford"
-              width="264"
-              height="260"
-            />
+            <img src="./images/tom-ford.jpg" alt="photo by tom ford" width="264" height="260" />
             <h3>Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
@@ -142,18 +146,10 @@
     </main>
     <!--footer Конец страници - лого, адрес, контакты и ссылка-->
     <footer>
-      <a href="WEBSTUDIO">WEBSTUDIO</a>
+      <a href="./index.html" class="logo-first">WEB<span class="logo-second">STUDIO</span> </a>
       <p>
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
-        placeat inventore alias tempora animi ad voluptate recusandae delectus
-        facilis accusamus dignissimos atque voluptas, fugiat impedit! Hic nihil,
-        nisi dolorem quidem officia deserunt fugiat soluta sequi iure,
-        reprehenderit voluptates, illo dolore facilis nobis minus doloremque
-        tenetur voluptate ducimus mollitia quisquam magni!
+        Increase the flow of customers and sales for your business with digital marketing & growth
+        solutions.
       </p>
     </footer>
   </body>
